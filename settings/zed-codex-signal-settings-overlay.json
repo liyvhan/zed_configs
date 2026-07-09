@@ -108,6 +108,10 @@
     "current_line_highlight": "line"
   },
   "bottom_dock_layout": "contained",
+  "debugger": {
+    "dock": "bottom",
+    "button": true
+  },
   "project_panel": {
     "dock": "right",
     "default_width": 300,
