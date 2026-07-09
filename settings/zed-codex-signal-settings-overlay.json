@@ -25,13 +25,13 @@
     "Hiragino Sans GB",
     "Apple Color Emoji"
   ],
-  "buffer_font_size": 14,
+  "buffer_font_size": 12,
   "buffer_font_weight": 400,
-  "buffer_line_height": "comfortable",
+  "buffer_line_height": "standard",
   "agent_ui_font_size": 14,
-  "agent_buffer_font_size": 14,
+  "agent_buffer_font_size": 12,
   "active_pane_modifiers": {
-    "border_size": 0.5,
+    "border_size": 0,
     "inactive_opacity": 1
   },
   "title_bar": {
@@ -152,9 +152,9 @@
   "terminal": {
     "dock": "bottom",
     "font_family": ".SF Mono",
-    "font_size": 13,
+    "font_size": 12,
     "line_height": "standard",
-    "minimum_contrast": 80,
+    "minimum_contrast": 0,
     "button": true,
     "toolbar": {
       "breadcrumbs": true
