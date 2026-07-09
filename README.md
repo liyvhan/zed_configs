@@ -14,6 +14,7 @@ Personal Zed configuration focused on a high-contrast, practical light/dark setu
 ## Style
 
 - Base contrast: black text on white in light mode, white text on black in dark mode.
+- Panels use translucent surfaces and soft borders to create a glass-like depth without lowering text contrast.
 - Accent colors are reserved for syntax, focus states, diagnostics, and icons.
 - Editor/terminal font: `.SF Mono`, weight `600`
 - UI font: `.SystemUIFont`, weight `500`

@@ -19,8 +19,8 @@
   "agent_ui_font_size": 14,
   "agent_buffer_font_size": 13,
   "active_pane_modifiers": {
-    "border_size": 1,
-    "inactive_opacity": 0.86
+    "border_size": 0.75,
+    "inactive_opacity": 0.92
   },
   "title_bar": {
     "show_branch_status_icon": true,
