@@ -12,13 +12,12 @@ Personal Zed configuration focused on a high-contrast, practical light/dark setu
 
 ## Style
 
-- Light mode maps to Codex bright chrome: panels/editor/preview/terminal `#ffffff`, primary text `#0d0d0d`, secondary text `60%` black, tertiary text `29%` black.
-- Left-thread emphasis uses Codex glass-like row states: hover `#d6d6da66`, selected/active `#d6d6da99`.
-- Editor and Agent text use Codex conversation sizing; terminal stays at Codex code sizing.
-- Terminal follows Codex code sizing: `.SF Mono`, size `12`, white background, black foreground.
-- Dark mode stays high-contrast black with glass-like panels.
-- UI font: `.SystemUIFont`, weight `400`, size `14`
-- Editor/Agent code font: `.SF Mono`, weight `400`, size `14`
+- Light mode maps to Codex bright chrome: panels/editor/preview/terminal `#ffffff`, primary text `#202021`, secondary text `#6c6c6e`, placeholder text `#9d9d9d`, border `#d9d9d9`.
+- Light row states use Codex screenshot samples: hover `#f0efef`, selected/active `#e0dce0`.
+- Dark mode maps to the dark reference screenshot: background `#000000`, raised surface `#111111`, border `#262626`, primary text `#f0f0f0`, secondary text `#a0a0a0`.
+- UI and Agent font: `.SystemUIFont`, weight `400`, size `15`.
+- Editor code font: `SF Mono`, weight `400`, size `14`, with `calt` and `liga` disabled for crisper rendering.
+- Terminal follows Codex code sizing: `SF Mono`, size `12`, matching the active theme background/foreground.
 - Chinese fallback fonts: `PingFang SC`, `Hiragino Sans GB`, `STHeiti`
 - Icon themes:
   - `VSCode Icons for Zed (Light)`
