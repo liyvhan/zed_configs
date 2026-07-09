@@ -11,6 +11,7 @@
   },
   "ui_font_family": ".SystemUIFont",
   "ui_font_fallbacks": [
+    "PingFang SC",
     "Hiragino Sans GB",
     "STHeiti",
     "Apple Color Emoji"
@@ -19,18 +20,19 @@
   "ui_font_size": 14,
   "buffer_font_family": ".SF Mono",
   "buffer_font_fallbacks": [
+    "Menlo",
+    "PingFang SC",
     "Hiragino Sans GB",
-    "STHeiti",
     "Apple Color Emoji"
   ],
-  "buffer_font_size": 13,
+  "buffer_font_size": 14,
   "buffer_font_weight": 400,
   "buffer_line_height": "comfortable",
   "agent_ui_font_size": 14,
-  "agent_buffer_font_size": 13,
+  "agent_buffer_font_size": 14,
   "active_pane_modifiers": {
-    "border_size": 0.75,
-    "inactive_opacity": 0.92
+    "border_size": 0.5,
+    "inactive_opacity": 1
   },
   "title_bar": {
     "show_branch_status_icon": true,
@@ -65,7 +67,7 @@
   "current_line_highlight": "line",
   "preferred_line_length": 100,
   "soft_wrap": "none",
-  "show_wrap_guides": true,
+  "show_wrap_guides": false,
   "wrap_guides": [
     100,
     120
@@ -75,17 +77,17 @@
     "runnables": true,
     "breakpoints": true,
     "folds": true,
-    "min_line_number_digits": 4
+    "min_line_number_digits": 3
   },
   "relative_line_numbers": "disabled",
   "indent_guides": {
     "enabled": true,
     "line_width": 1,
-    "active_line_width": 2,
-    "coloring": "indent_aware",
+    "active_line_width": 1,
+    "coloring": "fixed",
     "background_coloring": "disabled"
   },
-  "show_whitespaces": "boundary",
+  "show_whitespaces": "none",
   "scrollbar": {
     "show": "auto",
     "cursors": true,
@@ -100,7 +102,7 @@
     }
   },
   "minimap": {
-    "show": "auto",
+    "show": "never",
     "thumb": "always",
     "thumb_border": "left_only",
     "current_line_highlight": "line"
@@ -150,7 +152,7 @@
   "terminal": {
     "dock": "bottom",
     "font_family": ".SF Mono",
-    "font_size": 12,
+    "font_size": 13,
     "line_height": "standard",
     "minimum_contrast": 80,
     "button": true,

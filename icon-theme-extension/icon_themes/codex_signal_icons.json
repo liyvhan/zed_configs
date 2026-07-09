@@ -7,90 +7,90 @@
       "name": "Codex Signal Tech Icons Light",
       "appearance": "light",
       "directory_icons": {
-        "collapsed": "./icons/folder.svg",
-        "expanded": "./icons/folder-open.svg"
+        "collapsed": "./icons/light/folder.svg",
+        "expanded": "./icons/light/folder-open.svg"
       },
       "named_directory_icons": {
         "src": {
-          "collapsed": "./icons/folder-src.svg",
-          "expanded": "./icons/folder-src-open.svg"
+          "collapsed": "./icons/light/folder-src.svg",
+          "expanded": "./icons/light/folder-src-open.svg"
         },
         "source": {
-          "collapsed": "./icons/folder-src.svg",
-          "expanded": "./icons/folder-src-open.svg"
+          "collapsed": "./icons/light/folder-src.svg",
+          "expanded": "./icons/light/folder-src-open.svg"
         },
         "components": {
-          "collapsed": "./icons/folder-src.svg",
-          "expanded": "./icons/folder-src-open.svg"
+          "collapsed": "./icons/light/folder-src.svg",
+          "expanded": "./icons/light/folder-src-open.svg"
         },
         "packages": {
-          "collapsed": "./icons/folder-src.svg",
-          "expanded": "./icons/folder-src-open.svg"
+          "collapsed": "./icons/light/folder-src.svg",
+          "expanded": "./icons/light/folder-src-open.svg"
         },
         "test": {
-          "collapsed": "./icons/folder-test.svg",
-          "expanded": "./icons/folder-test-open.svg"
+          "collapsed": "./icons/light/folder-test.svg",
+          "expanded": "./icons/light/folder-test-open.svg"
         },
         "tests": {
-          "collapsed": "./icons/folder-test.svg",
-          "expanded": "./icons/folder-test-open.svg"
+          "collapsed": "./icons/light/folder-test.svg",
+          "expanded": "./icons/light/folder-test-open.svg"
         },
         "__tests__": {
-          "collapsed": "./icons/folder-test.svg",
-          "expanded": "./icons/folder-test-open.svg"
+          "collapsed": "./icons/light/folder-test.svg",
+          "expanded": "./icons/light/folder-test-open.svg"
         },
         "config": {
-          "collapsed": "./icons/folder-config.svg",
-          "expanded": "./icons/folder-config-open.svg"
+          "collapsed": "./icons/light/folder-config.svg",
+          "expanded": "./icons/light/folder-config-open.svg"
         },
         "configs": {
-          "collapsed": "./icons/folder-config.svg",
-          "expanded": "./icons/folder-config-open.svg"
+          "collapsed": "./icons/light/folder-config.svg",
+          "expanded": "./icons/light/folder-config-open.svg"
         },
         ".config": {
-          "collapsed": "./icons/folder-config.svg",
-          "expanded": "./icons/folder-config-open.svg"
+          "collapsed": "./icons/light/folder-config.svg",
+          "expanded": "./icons/light/folder-config-open.svg"
         },
         ".github": {
-          "collapsed": "./icons/folder-config.svg",
-          "expanded": "./icons/folder-config-open.svg"
+          "collapsed": "./icons/light/folder-config.svg",
+          "expanded": "./icons/light/folder-config-open.svg"
         },
         "scripts": {
-          "collapsed": "./icons/folder-config.svg",
-          "expanded": "./icons/folder-config-open.svg"
+          "collapsed": "./icons/light/folder-config.svg",
+          "expanded": "./icons/light/folder-config-open.svg"
         },
         "docs": {
-          "collapsed": "./icons/folder-docs.svg",
-          "expanded": "./icons/folder-docs-open.svg"
+          "collapsed": "./icons/light/folder-docs.svg",
+          "expanded": "./icons/light/folder-docs-open.svg"
         },
         "doc": {
-          "collapsed": "./icons/folder-docs.svg",
-          "expanded": "./icons/folder-docs-open.svg"
+          "collapsed": "./icons/light/folder-docs.svg",
+          "expanded": "./icons/light/folder-docs-open.svg"
         },
         "assets": {
-          "collapsed": "./icons/folder-assets.svg",
-          "expanded": "./icons/folder-assets-open.svg"
+          "collapsed": "./icons/light/folder-assets.svg",
+          "expanded": "./icons/light/folder-assets-open.svg"
         },
         "public": {
-          "collapsed": "./icons/folder-assets.svg",
-          "expanded": "./icons/folder-assets-open.svg"
+          "collapsed": "./icons/light/folder-assets.svg",
+          "expanded": "./icons/light/folder-assets-open.svg"
         },
         "static": {
-          "collapsed": "./icons/folder-assets.svg",
-          "expanded": "./icons/folder-assets-open.svg"
+          "collapsed": "./icons/light/folder-assets.svg",
+          "expanded": "./icons/light/folder-assets-open.svg"
         },
         "images": {
-          "collapsed": "./icons/folder-assets.svg",
-          "expanded": "./icons/folder-assets-open.svg"
+          "collapsed": "./icons/light/folder-assets.svg",
+          "expanded": "./icons/light/folder-assets-open.svg"
         },
         "themes": {
-          "collapsed": "./icons/folder-assets.svg",
-          "expanded": "./icons/folder-assets-open.svg"
+          "collapsed": "./icons/light/folder-assets.svg",
+          "expanded": "./icons/light/folder-assets-open.svg"
         }
       },
       "chevron_icons": {
-        "collapsed": "./icons/chevron-right.svg",
-        "expanded": "./icons/chevron-down.svg"
+        "collapsed": "./icons/light/chevron-right.svg",
+        "expanded": "./icons/light/chevron-down.svg"
       },
       "file_stems": {
         "README": "markdown",
@@ -154,85 +154,85 @@
       },
       "file_icons": {
         "default": {
-          "path": "./icons/file.svg"
+          "path": "./icons/light/file.svg"
         },
         "text": {
-          "path": "./icons/text.svg"
+          "path": "./icons/light/text.svg"
         },
         "markdown": {
-          "path": "./icons/markdown.svg"
+          "path": "./icons/light/markdown.svg"
         },
         "javascript": {
-          "path": "./icons/javascript.svg"
+          "path": "./icons/light/javascript.svg"
         },
         "typescript": {
-          "path": "./icons/typescript.svg"
+          "path": "./icons/light/typescript.svg"
         },
         "react": {
-          "path": "./icons/react.svg"
+          "path": "./icons/light/react.svg"
         },
         "vue": {
-          "path": "./icons/vue.svg"
+          "path": "./icons/light/vue.svg"
         },
         "html": {
-          "path": "./icons/html.svg"
+          "path": "./icons/light/html.svg"
         },
         "css": {
-          "path": "./icons/css.svg"
+          "path": "./icons/light/css.svg"
         },
         "json": {
-          "path": "./icons/json.svg"
+          "path": "./icons/light/json.svg"
         },
         "yaml": {
-          "path": "./icons/yaml.svg"
+          "path": "./icons/light/yaml.svg"
         },
         "go": {
-          "path": "./icons/go.svg"
+          "path": "./icons/light/go.svg"
         },
         "python": {
-          "path": "./icons/python.svg"
+          "path": "./icons/light/python.svg"
         },
         "rust": {
-          "path": "./icons/rust.svg"
+          "path": "./icons/light/rust.svg"
         },
         "shell": {
-          "path": "./icons/shell.svg"
+          "path": "./icons/light/shell.svg"
         },
         "sql": {
-          "path": "./icons/sql.svg"
+          "path": "./icons/light/sql.svg"
         },
         "docker": {
-          "path": "./icons/docker.svg"
+          "path": "./icons/light/docker.svg"
         },
         "git": {
-          "path": "./icons/git.svg"
+          "path": "./icons/light/git.svg"
         },
         "config": {
-          "path": "./icons/config.svg"
+          "path": "./icons/light/config.svg"
         },
         "lock": {
-          "path": "./icons/lock.svg"
+          "path": "./icons/light/lock.svg"
         },
         "image": {
-          "path": "./icons/image.svg"
+          "path": "./icons/light/image.svg"
         },
         "test": {
-          "path": "./icons/test.svg"
+          "path": "./icons/light/test.svg"
         },
         "package": {
-          "path": "./icons/package.svg"
+          "path": "./icons/light/package.svg"
         },
         "make": {
-          "path": "./icons/make.svg"
+          "path": "./icons/light/make.svg"
         },
         "proto": {
-          "path": "./icons/proto.svg"
+          "path": "./icons/light/proto.svg"
         },
         "thrift": {
-          "path": "./icons/thrift.svg"
+          "path": "./icons/light/thrift.svg"
         },
         "log": {
-          "path": "./icons/log.svg"
+          "path": "./icons/light/log.svg"
         }
       }
     },
@@ -240,90 +240,90 @@
       "name": "Codex Signal Tech Icons Dark",
       "appearance": "dark",
       "directory_icons": {
-        "collapsed": "./icons/folder.svg",
-        "expanded": "./icons/folder-open.svg"
+        "collapsed": "./icons/dark/folder.svg",
+        "expanded": "./icons/dark/folder-open.svg"
       },
       "named_directory_icons": {
         "src": {
-          "collapsed": "./icons/folder-src.svg",
-          "expanded": "./icons/folder-src-open.svg"
+          "collapsed": "./icons/dark/folder-src.svg",
+          "expanded": "./icons/dark/folder-src-open.svg"
         },
         "source": {
-          "collapsed": "./icons/folder-src.svg",
-          "expanded": "./icons/folder-src-open.svg"
+          "collapsed": "./icons/dark/folder-src.svg",
+          "expanded": "./icons/dark/folder-src-open.svg"
         },
         "components": {
-          "collapsed": "./icons/folder-src.svg",
-          "expanded": "./icons/folder-src-open.svg"
+          "collapsed": "./icons/dark/folder-src.svg",
+          "expanded": "./icons/dark/folder-src-open.svg"
         },
         "packages": {
-          "collapsed": "./icons/folder-src.svg",
-          "expanded": "./icons/folder-src-open.svg"
+          "collapsed": "./icons/dark/folder-src.svg",
+          "expanded": "./icons/dark/folder-src-open.svg"
         },
         "test": {
-          "collapsed": "./icons/folder-test.svg",
-          "expanded": "./icons/folder-test-open.svg"
+          "collapsed": "./icons/dark/folder-test.svg",
+          "expanded": "./icons/dark/folder-test-open.svg"
         },
         "tests": {
-          "collapsed": "./icons/folder-test.svg",
-          "expanded": "./icons/folder-test-open.svg"
+          "collapsed": "./icons/dark/folder-test.svg",
+          "expanded": "./icons/dark/folder-test-open.svg"
         },
         "__tests__": {
-          "collapsed": "./icons/folder-test.svg",
-          "expanded": "./icons/folder-test-open.svg"
+          "collapsed": "./icons/dark/folder-test.svg",
+          "expanded": "./icons/dark/folder-test-open.svg"
         },
         "config": {
-          "collapsed": "./icons/folder-config.svg",
-          "expanded": "./icons/folder-config-open.svg"
+          "collapsed": "./icons/dark/folder-config.svg",
+          "expanded": "./icons/dark/folder-config-open.svg"
         },
         "configs": {
-          "collapsed": "./icons/folder-config.svg",
-          "expanded": "./icons/folder-config-open.svg"
+          "collapsed": "./icons/dark/folder-config.svg",
+          "expanded": "./icons/dark/folder-config-open.svg"
         },
         ".config": {
-          "collapsed": "./icons/folder-config.svg",
-          "expanded": "./icons/folder-config-open.svg"
+          "collapsed": "./icons/dark/folder-config.svg",
+          "expanded": "./icons/dark/folder-config-open.svg"
         },
         ".github": {
-          "collapsed": "./icons/folder-config.svg",
-          "expanded": "./icons/folder-config-open.svg"
+          "collapsed": "./icons/dark/folder-config.svg",
+          "expanded": "./icons/dark/folder-config-open.svg"
         },
         "scripts": {
-          "collapsed": "./icons/folder-config.svg",
-          "expanded": "./icons/folder-config-open.svg"
+          "collapsed": "./icons/dark/folder-config.svg",
+          "expanded": "./icons/dark/folder-config-open.svg"
         },
         "docs": {
-          "collapsed": "./icons/folder-docs.svg",
-          "expanded": "./icons/folder-docs-open.svg"
+          "collapsed": "./icons/dark/folder-docs.svg",
+          "expanded": "./icons/dark/folder-docs-open.svg"
         },
         "doc": {
-          "collapsed": "./icons/folder-docs.svg",
-          "expanded": "./icons/folder-docs-open.svg"
+          "collapsed": "./icons/dark/folder-docs.svg",
+          "expanded": "./icons/dark/folder-docs-open.svg"
         },
         "assets": {
-          "collapsed": "./icons/folder-assets.svg",
-          "expanded": "./icons/folder-assets-open.svg"
+          "collapsed": "./icons/dark/folder-assets.svg",
+          "expanded": "./icons/dark/folder-assets-open.svg"
         },
         "public": {
-          "collapsed": "./icons/folder-assets.svg",
-          "expanded": "./icons/folder-assets-open.svg"
+          "collapsed": "./icons/dark/folder-assets.svg",
+          "expanded": "./icons/dark/folder-assets-open.svg"
         },
         "static": {
-          "collapsed": "./icons/folder-assets.svg",
-          "expanded": "./icons/folder-assets-open.svg"
+          "collapsed": "./icons/dark/folder-assets.svg",
+          "expanded": "./icons/dark/folder-assets-open.svg"
         },
         "images": {
-          "collapsed": "./icons/folder-assets.svg",
-          "expanded": "./icons/folder-assets-open.svg"
+          "collapsed": "./icons/dark/folder-assets.svg",
+          "expanded": "./icons/dark/folder-assets-open.svg"
         },
         "themes": {
-          "collapsed": "./icons/folder-assets.svg",
-          "expanded": "./icons/folder-assets-open.svg"
+          "collapsed": "./icons/dark/folder-assets.svg",
+          "expanded": "./icons/dark/folder-assets-open.svg"
         }
       },
       "chevron_icons": {
-        "collapsed": "./icons/chevron-right.svg",
-        "expanded": "./icons/chevron-down.svg"
+        "collapsed": "./icons/dark/chevron-right.svg",
+        "expanded": "./icons/dark/chevron-down.svg"
       },
       "file_stems": {
         "README": "markdown",
@@ -387,85 +387,85 @@
       },
       "file_icons": {
         "default": {
-          "path": "./icons/file.svg"
+          "path": "./icons/dark/file.svg"
         },
         "text": {
-          "path": "./icons/text.svg"
+          "path": "./icons/dark/text.svg"
         },
         "markdown": {
-          "path": "./icons/markdown.svg"
+          "path": "./icons/dark/markdown.svg"
         },
         "javascript": {
-          "path": "./icons/javascript.svg"
+          "path": "./icons/dark/javascript.svg"
         },
         "typescript": {
-          "path": "./icons/typescript.svg"
+          "path": "./icons/dark/typescript.svg"
         },
         "react": {
-          "path": "./icons/react.svg"
+          "path": "./icons/dark/react.svg"
         },
         "vue": {
-          "path": "./icons/vue.svg"
+          "path": "./icons/dark/vue.svg"
         },
         "html": {
-          "path": "./icons/html.svg"
+          "path": "./icons/dark/html.svg"
         },
         "css": {
-          "path": "./icons/css.svg"
+          "path": "./icons/dark/css.svg"
         },
         "json": {
-          "path": "./icons/json.svg"
+          "path": "./icons/dark/json.svg"
         },
         "yaml": {
-          "path": "./icons/yaml.svg"
+          "path": "./icons/dark/yaml.svg"
         },
         "go": {
-          "path": "./icons/go.svg"
+          "path": "./icons/dark/go.svg"
         },
         "python": {
-          "path": "./icons/python.svg"
+          "path": "./icons/dark/python.svg"
         },
         "rust": {
-          "path": "./icons/rust.svg"
+          "path": "./icons/dark/rust.svg"
         },
         "shell": {
-          "path": "./icons/shell.svg"
+          "path": "./icons/dark/shell.svg"
         },
         "sql": {
-          "path": "./icons/sql.svg"
+          "path": "./icons/dark/sql.svg"
         },
         "docker": {
-          "path": "./icons/docker.svg"
+          "path": "./icons/dark/docker.svg"
         },
         "git": {
-          "path": "./icons/git.svg"
+          "path": "./icons/dark/git.svg"
         },
         "config": {
-          "path": "./icons/config.svg"
+          "path": "./icons/dark/config.svg"
         },
         "lock": {
-          "path": "./icons/lock.svg"
+          "path": "./icons/dark/lock.svg"
         },
         "image": {
-          "path": "./icons/image.svg"
+          "path": "./icons/dark/image.svg"
         },
         "test": {
-          "path": "./icons/test.svg"
+          "path": "./icons/dark/test.svg"
         },
         "package": {
-          "path": "./icons/package.svg"
+          "path": "./icons/dark/package.svg"
         },
         "make": {
-          "path": "./icons/make.svg"
+          "path": "./icons/dark/make.svg"
         },
         "proto": {
-          "path": "./icons/proto.svg"
+          "path": "./icons/dark/proto.svg"
         },
         "thrift": {
-          "path": "./icons/thrift.svg"
+          "path": "./icons/dark/thrift.svg"
         },
         "log": {
-          "path": "./icons/log.svg"
+          "path": "./icons/dark/log.svg"
         }
       }
     }

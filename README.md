@@ -15,11 +15,13 @@ Personal Zed configuration focused on a high-contrast, practical light/dark setu
 
 - Light mode follows Codex bright chrome: white surface, `#0d0d0d` ink, and very light black-alpha borders.
 - Dark mode stays high-contrast black with glass-like panels and colored signal accents.
-- Accent colors are reserved for syntax, focus states, diagnostics, and icons.
+- Light mode uses clean line icons and hides minimap, wrap guides, whitespace markers, and heavy pane dimming.
+- Dark mode keeps the neon signal icon style.
+- Accent colors are reserved for syntax, focus states, and diagnostics.
 - UI font: `.SystemUIFont`, weight `400`, size `14`
-- Editor font: `.SF Mono`, weight `400`, size `13`
-- Terminal font: `.SF Mono`, size `12`
-- Chinese fallback fonts: `Hiragino Sans GB`, `STHeiti`
+- Editor font: `.SF Mono`, weight `400`, size `14`
+- Terminal font: `.SF Mono`, size `13`
+- Chinese fallback fonts: `PingFang SC`, `Hiragino Sans GB`, `STHeiti`
 - Icon themes:
   - `Codex Signal Tech Icons Light`
   - `Codex Signal Tech Icons Dark`
