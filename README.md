@@ -5,7 +5,7 @@ Personal Zed configuration focused on a high-contrast, practical light/dark setu
 ## Contents
 
 - `themes/zed-codex-signal-theme.json`: local Zed theme pair.
-  - `Codex Signal Clean Light`
+  - `Codex Signal Prism Light`
   - `Codex Signal Dark`
 - `settings/zed-codex-signal-settings-overlay.json`: reusable UI/editor settings overlay.
 - `scripts/install.mjs`: installs the theme and merges the overlay into `~/.config/zed/settings.json`.
