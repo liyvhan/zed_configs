@@ -36,7 +36,7 @@
   "agent_buffer_font_size": 15,
   "terminal": {
     "font_family": "SF Mono",
-    "font_size": 12,
+    "font_size": 13,
     "line_height": "standard",
     "minimum_contrast": 0
   }
