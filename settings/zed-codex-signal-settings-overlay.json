@@ -10,11 +10,11 @@
     "dark": "Codex Signal Tech Icons Dark"
   },
   "ui_font_family": ".SystemUIFont",
-  "ui_font_weight": 450,
+  "ui_font_weight": 500,
   "ui_font_size": 14,
   "buffer_font_family": ".SF Mono",
   "buffer_font_size": 14,
-  "buffer_font_weight": 520,
+  "buffer_font_weight": 600,
   "buffer_line_height": "standard",
   "agent_ui_font_size": 14,
   "agent_buffer_font_size": 13,
@@ -142,7 +142,7 @@
     "font_family": ".SF Mono",
     "font_size": 13,
     "line_height": "standard",
-    "minimum_contrast": 60,
+    "minimum_contrast": 80,
     "button": true,
     "toolbar": {
       "breadcrumbs": true
