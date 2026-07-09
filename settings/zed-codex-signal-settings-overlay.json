@@ -107,9 +107,9 @@
     "thumb_border": "left_only",
     "current_line_highlight": "line"
   },
-  "bottom_dock_layout": "contained",
+  "bottom_dock_layout": "full",
   "debugger": {
-    "dock": "bottom",
+    "dock": "left",
     "button": true
   },
   "project_panel": {
