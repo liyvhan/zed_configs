@@ -8,7 +8,16 @@ Personal Zed configuration focused on a high-contrast, practical light/dark setu
   - `Codex Signal Prism Light`
   - `Codex Signal Dark`
 - `settings/zed-codex-signal-settings-overlay.json`: reusable UI/editor settings overlay.
+- `icon-theme-extension/`: local `Codex Signal Icons` Zed icon theme extension.
 - `scripts/install.mjs`: installs the theme and merges the overlay into `~/.config/zed/settings.json`.
+
+## Style
+
+- Editor/terminal font: `.SF Mono`
+- UI font: `.SystemUIFont`
+- Icon themes:
+  - `Codex Signal Icons Light`
+  - `Codex Signal Icons Dark`
 
 ## Install
 

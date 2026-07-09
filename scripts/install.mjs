@@ -7,10 +7,14 @@ const scriptDir = path.dirname(fileURLToPath(import.meta.url));
 const repoRoot = path.resolve(scriptDir, "..");
 const themeSource = path.join(repoRoot, "themes", "zed-codex-signal-theme.json");
 const overlaySource = path.join(repoRoot, "settings", "zed-codex-signal-settings-overlay.json");
+const iconExtensionSource = path.join(repoRoot, "icon-theme-extension");
 const zedDir = path.join(os.homedir(), ".config", "zed");
+const zedAppSupportDir = path.join(os.homedir(), "Library", "Application Support", "Zed");
 const themesDir = path.join(zedDir, "themes");
+const extensionsDir = path.join(zedAppSupportDir, "extensions", "installed");
 const settingsPath = path.join(zedDir, "settings.json");
 const installedThemePath = path.join(themesDir, "zed-codex-signal-theme.json");
+const installedIconExtensionPath = path.join(extensionsDir, "codex-signal-icons");
 
 function stripJsonc(input) {
   let output = "";
@@ -102,6 +106,12 @@ function deepMerge(base, overlay) {
 fs.mkdirSync(themesDir, { recursive: true });
 fs.copyFileSync(themeSource, installedThemePath);
 
+if (fs.existsSync(iconExtensionSource)) {
+  fs.rmSync(installedIconExtensionPath, { recursive: true, force: true });
+  fs.mkdirSync(extensionsDir, { recursive: true });
+  fs.cpSync(iconExtensionSource, installedIconExtensionPath, { recursive: true });
+}
+
 const settings = fs.existsSync(settingsPath) ? readJsonc(settingsPath) : {};
 const overlay = JSON.parse(fs.readFileSync(overlaySource, "utf8"));
 const merged = deepMerge(settings, overlay);
@@ -117,5 +127,6 @@ fs.writeFileSync(
 );
 
 console.log(`Installed theme: ${installedThemePath}`);
+console.log(`Installed icon theme extension: ${installedIconExtensionPath}`);
 console.log(`Updated settings: ${settingsPath}`);
 console.log(`Selected themes: ${merged.theme.light} / ${merged.theme.dark}`);

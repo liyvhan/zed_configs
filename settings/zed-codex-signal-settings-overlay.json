@@ -6,16 +6,18 @@
   },
   "icon_theme": {
     "mode": "system",
-    "light": "Zed (Default)",
-    "dark": "Zed (Default)"
+    "light": "Codex Signal Icons Light",
+    "dark": "Codex Signal Icons Dark"
   },
-  "ui_font_family": ".ZedSans",
+  "ui_font_family": ".SystemUIFont",
+  "ui_font_weight": 450,
   "ui_font_size": 14,
-  "buffer_font_family": ".ZedMono",
+  "buffer_font_family": ".SF Mono",
   "buffer_font_size": 14,
-  "buffer_font_weight": 450,
+  "buffer_font_weight": 520,
   "buffer_line_height": "standard",
-  "agent_font_size": 14,
+  "agent_ui_font_size": 14,
+  "agent_buffer_font_size": 13,
   "active_pane_modifiers": {
     "border_size": 1,
     "inactive_opacity": 0.86
@@ -137,7 +139,7 @@
   },
   "terminal": {
     "dock": "bottom",
-    "font_family": ".ZedMono",
+    "font_family": ".SF Mono",
     "font_size": 13,
     "line_height": "standard",
     "minimum_contrast": 60,
