@@ -6,8 +6,8 @@
   },
   "icon_theme": {
     "mode": "system",
-    "light": "Codex Signal Tech Icons Light",
-    "dark": "Codex Signal Tech Icons Dark"
+    "light": "VSCode Icons for Zed (Light)",
+    "dark": "VSCode Icons for Zed (Dark)"
   },
   "ui_font_family": ".SystemUIFont",
   "ui_font_fallbacks": [
@@ -25,11 +25,11 @@
     "Hiragino Sans GB",
     "Apple Color Emoji"
   ],
-  "buffer_font_size": 12,
+  "buffer_font_size": 14,
   "buffer_font_weight": 400,
-  "buffer_line_height": "standard",
-  "agent_ui_font_size": 14,
-  "agent_buffer_font_size": 12,
+  "buffer_line_height": "comfortable",
+  "agent_font_size": 14,
+  "agent_buffer_font_size": 14,
   "active_pane_modifiers": {
     "border_size": 0,
     "inactive_opacity": 1

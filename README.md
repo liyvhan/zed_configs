@@ -8,22 +8,24 @@ Personal Zed configuration focused on a high-contrast, practical light/dark setu
   - `Codex Signal Light`
   - `Codex Signal Dark`
 - `settings/zed-codex-signal-settings-overlay.json`: reusable UI/editor settings overlay.
-- `icon-theme-extension/`: local `Codex Signal Tech Icons` Zed icon theme extension.
 - `scripts/install.mjs`: installs the theme and merges the overlay into `~/.config/zed/settings.json`.
 
 ## Style
 
-- Light mode maps to Codex bright chrome: background/surface `#ffffff`, primary text `#0d0d0d`, secondary text `60%` black, tertiary text `29%` black, borders `5%` black.
-- Editor, Agent, project panel, tabs, and terminal all use the same Codex white conversation surface in light mode.
+- Light mode maps to Codex bright chrome: panels/editor/preview/terminal `#ffffff`, primary text `#0d0d0d`, secondary text `60%` black, tertiary text `29%` black.
+- Left-thread emphasis uses Codex glass-like row states: hover `#d6d6da66`, selected/active `#d6d6da99`.
+- Editor and Agent text use Codex conversation sizing; terminal stays at Codex code sizing.
 - Terminal follows Codex code sizing: `.SF Mono`, size `12`, white background, black foreground.
-- Light mode keeps crisp, text-free line icons and hides minimap, wrap guides, whitespace markers, and heavy pane dimming.
-- Dark mode stays high-contrast black with glass-like panels and neon signal icons.
+- Light mode hides minimap, wrap guides, whitespace markers, and heavy pane dimming.
+- Dark mode stays high-contrast black with glass-like panels.
 - UI font: `.SystemUIFont`, weight `400`, size `14`
-- Editor/Agent code font: `.SF Mono`, weight `400`, size `12`
+- Editor/Agent code font: `.SF Mono`, weight `400`, size `14`
 - Chinese fallback fonts: `PingFang SC`, `Hiragino Sans GB`, `STHeiti`
 - Icon themes:
-  - `Codex Signal Tech Icons Light`
-  - `Codex Signal Tech Icons Dark`
+  - `VSCode Icons for Zed (Light)`
+  - `VSCode Icons for Zed (Dark)`
+
+Requires the Zed extension `vscode-icons` to be installed.
 
 ## Install
 
