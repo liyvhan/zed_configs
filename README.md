@@ -5,7 +5,7 @@ Personal Zed configuration focused on a high-contrast, practical light/dark setu
 ## Contents
 
 - `themes/zed-codex-signal-theme.json`: local Zed theme pair.
-  - `Codex Signal Prism Light`
+  - `Codex Signal Light`
   - `Codex Signal Dark`
 - `settings/zed-codex-signal-settings-overlay.json`: reusable UI/editor settings overlay.
 - `icon-theme-extension/`: local `Codex Signal Tech Icons` Zed icon theme extension.
@@ -13,11 +13,12 @@ Personal Zed configuration focused on a high-contrast, practical light/dark setu
 
 ## Style
 
-- Base contrast: near-black text on a softened light surface, white text on black in dark mode.
-- Panels use translucent surfaces and soft borders to create a glass-like depth without lowering text contrast.
+- Light mode follows Codex bright chrome: white surface, `#0d0d0d` ink, and very light black-alpha borders.
+- Dark mode stays high-contrast black with glass-like panels and colored signal accents.
 - Accent colors are reserved for syntax, focus states, diagnostics, and icons.
-- Editor/terminal font: `.SF Mono`, weight `520`
-- UI font: `.SystemUIFont`, weight `450`
+- UI font: `.SystemUIFont`, weight `400`, size `14`
+- Editor font: `.SF Mono`, weight `400`, size `13`
+- Terminal font: `.SF Mono`, size `12`
 - Chinese fallback fonts: `Hiragino Sans GB`, `STHeiti`
 - Icon themes:
   - `Codex Signal Tech Icons Light`

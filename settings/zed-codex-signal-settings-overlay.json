@@ -1,7 +1,7 @@
 {
   "theme": {
     "mode": "system",
-    "light": "Codex Signal Prism Light",
+    "light": "Codex Signal Light",
     "dark": "Codex Signal Dark"
   },
   "icon_theme": {
@@ -15,7 +15,7 @@
     "STHeiti",
     "Apple Color Emoji"
   ],
-  "ui_font_weight": 450,
+  "ui_font_weight": 400,
   "ui_font_size": 14,
   "buffer_font_family": ".SF Mono",
   "buffer_font_fallbacks": [
@@ -23,8 +23,8 @@
     "STHeiti",
     "Apple Color Emoji"
   ],
-  "buffer_font_size": 14,
-  "buffer_font_weight": 520,
+  "buffer_font_size": 13,
+  "buffer_font_weight": 400,
   "buffer_line_height": "comfortable",
   "agent_ui_font_size": 14,
   "agent_buffer_font_size": 13,
@@ -150,7 +150,7 @@
   "terminal": {
     "dock": "bottom",
     "font_family": ".SF Mono",
-    "font_size": 13,
+    "font_size": 12,
     "line_height": "standard",
     "minimum_contrast": 80,
     "button": true,
