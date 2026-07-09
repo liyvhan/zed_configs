@@ -7,7 +7,7 @@ Personal Zed configuration focused on a high-contrast, practical light/dark setu
 - `themes/zed-codex-signal-theme.json`: local Zed theme pair.
   - `Codex Signal Light`
   - `Codex Signal Dark`
-- `settings/zed-codex-signal-settings-overlay.json`: reusable UI/editor settings overlay.
+- `settings/zed-codex-signal-settings-overlay.json`: reusable theme, icon, and font settings overlay.
 - `scripts/install.mjs`: installs the theme and merges the overlay into `~/.config/zed/settings.json`.
 
 ## Style
@@ -16,7 +16,6 @@ Personal Zed configuration focused on a high-contrast, practical light/dark setu
 - Left-thread emphasis uses Codex glass-like row states: hover `#d6d6da66`, selected/active `#d6d6da99`.
 - Editor and Agent text use Codex conversation sizing; terminal stays at Codex code sizing.
 - Terminal follows Codex code sizing: `.SF Mono`, size `12`, white background, black foreground.
-- Light mode hides minimap, wrap guides, whitespace markers, and heavy pane dimming.
 - Dark mode stays high-contrast black with glass-like panels.
 - UI font: `.SystemUIFont`, weight `400`, size `14`
 - Editor/Agent code font: `.SF Mono`, weight `400`, size `14`
@@ -41,5 +40,5 @@ The installer creates a timestamped backup of your existing Zed settings before 
 
 ## Notes
 
-This repo intentionally stores a reusable overlay instead of a full `settings.json`.
+This repo intentionally stores a small theme-only overlay instead of a full `settings.json`.
 Full local settings often contain machine-specific paths, SSH hosts, private workspaces, and agent configuration.
