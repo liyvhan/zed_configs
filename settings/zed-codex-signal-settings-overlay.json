@@ -6,8 +6,8 @@
   },
   "icon_theme": {
     "mode": "system",
-    "light": "Codex Signal Icons Light",
-    "dark": "Codex Signal Icons Dark"
+    "light": "Codex Signal Tech Icons Light",
+    "dark": "Codex Signal Tech Icons Dark"
   },
   "ui_font_family": ".SystemUIFont",
   "ui_font_weight": 450,

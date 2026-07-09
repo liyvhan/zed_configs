@@ -1,6 +1,13 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-  <path fill="#0B1020" opacity=".16" d="M2.8 7.2c0-1.05.85-1.9 1.9-1.9h5.05l1.9 2.05h7.65c1.05 0 1.9.85 1.9 1.9v8.35c0 1.05-.85 1.9-1.9 1.9H4.7a1.9 1.9 0 0 1-1.9-1.9V7.2Z"/>
-  <path fill="#D11D6E" d="M2.8 7.3c0-1.05.85-1.9 1.9-1.9h5.05l1.9 2.05h7.65c1.05 0 1.9.85 1.9 1.9v1.25H2.8V7.3Z"/>
-  <path fill="#F8FBFF" opacity="1" d="M2.8 10.2h18.4v7.4c0 1.05-.85 1.9-1.9 1.9H4.7a1.9 1.9 0 0 1-1.9-1.9v-7.4Z"/>
-  <path fill="#D11D6E" opacity=".72" d="M4.1 11.45h15.8v5.7c0 .55-.45 1-1 1H5.1c-.55 0-1-.45-1-1v-5.7Z"/>
+  <defs>
+    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
+      <feDropShadow dx="0" dy="0" stdDeviation="1.15" flood-color="#FF2D8D" flood-opacity=".7"/>
+    </filter>
+  </defs>
+  <path fill="#0B1020" d="M3.1 7.2 5.2 5.1h4.7l1.9 2h7.3l1.8 1.8v9.2l-2.1 2.1H4.9l-2-2V7.2Z"/>
+  <path fill="#FF2D8D" opacity=".16" d="M4.2 9.25h15.6v8.25l-1.55 1.55H5.75L4.2 17.5V9.25Z"/>
+  <path fill="none" stroke="#FF2D8D" stroke-linejoin="round" stroke-width="1.35" d="M3.1 7.2 5.2 5.1h4.7l1.9 2h7.3l1.8 1.8v9.2l-2.1 2.1H4.9l-2-2V7.2Z" filter="url(#glow)"/>
+  <path fill="none" stroke="#FF2D8D" stroke-linecap="round" stroke-width=".9" d="M6.2 12.1h3.7m2.2 0h5.6M7.2 15.2h2.4m2.4 0h4.8"/>
+  <circle cx="10.5" cy="12.1" r=".75" fill="#FF2D8D"/>
+  <circle cx="11.1" cy="15.2" r=".75" fill="#FF2D8D"/>
 </svg>

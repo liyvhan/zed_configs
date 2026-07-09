@@ -1,10 +1,10 @@
 {
   "$schema": "https://zed.dev/schema/icon_themes/v0.3.0.json",
-  "name": "Codex Signal Icons",
+  "name": "Codex Signal Tech Icons",
   "author": "Codex",
   "themes": [
     {
-      "name": "Codex Signal Icons Light",
+      "name": "Codex Signal Tech Icons Light",
       "appearance": "light",
       "directory_icons": {
         "collapsed": "./icons/folder.svg",
@@ -237,7 +237,7 @@
       }
     },
     {
-      "name": "Codex Signal Icons Dark",
+      "name": "Codex Signal Tech Icons Dark",
       "appearance": "dark",
       "directory_icons": {
         "collapsed": "./icons/folder.svg",

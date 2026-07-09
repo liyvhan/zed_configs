@@ -1,8 +1,8 @@
 id = "codex-signal-icons"
-name = "Codex Signal Icons"
-version = "0.1.0"
+name = "Codex Signal Tech Icons"
+version = "0.2.0"
 schema_version = 1
-description = "High contrast file and folder icons for the Codex Signal Zed setup"
+description = "Neon circuit file and folder icons for the Codex Signal Zed setup"
 authors = ["Codex"]
 themes = []
 icon_themes = ["icon_themes/codex_signal_icons.json"]
