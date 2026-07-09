@@ -10,12 +10,22 @@
     "dark": "Codex Signal Tech Icons Dark"
   },
   "ui_font_family": ".SystemUIFont",
-  "ui_font_weight": 500,
+  "ui_font_fallbacks": [
+    "Hiragino Sans GB",
+    "STHeiti",
+    "Apple Color Emoji"
+  ],
+  "ui_font_weight": 450,
   "ui_font_size": 14,
   "buffer_font_family": ".SF Mono",
+  "buffer_font_fallbacks": [
+    "Hiragino Sans GB",
+    "STHeiti",
+    "Apple Color Emoji"
+  ],
   "buffer_font_size": 14,
-  "buffer_font_weight": 600,
-  "buffer_line_height": "standard",
+  "buffer_font_weight": 520,
+  "buffer_line_height": "comfortable",
   "agent_ui_font_size": 14,
   "agent_buffer_font_size": 13,
   "active_pane_modifiers": {
